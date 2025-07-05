@@ -1,4 +1,4 @@
-# Operating-Systems
+# Operating-Systems - Pizza-simulator-with-Threads
 **Pizza Order System**   Simulates restaurant workflow (orders→baking→delivery) using pthreads. Synchronizes resources (operators/cooks/ovens/drivers) via mutexes &amp; condition variables. 
 
 This repository contains a POSIX threads-based simulation of a pizza restaurant's order fulfillment workflow. The system models telephone operators taking orders, cooks preparing pizzas, ovens baking concurrently, and drivers handling deliveries. Implemented in C, it uses mutexes and condition variables for resource synchronization (limited operators/cooks/ovens/drivers). Customers arrive at random intervals, order random pizza quantities (Margherita/Pepperoni/Special), with payment success probability checks. The program outputs order lifecycle events and final statistics including revenue, service times, and cooling durations. Developed for AUEB's Operating Systems course.
